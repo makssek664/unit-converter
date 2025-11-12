@@ -1,14 +1,11 @@
-<<<<<<< HEAD
 import { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import KryComponent from "./KryComponent/KryComponent.jsx";
-=======
-import { useState } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
-import {MakComponent} from './MakComponent/component.jsx';
->>>>>>> 1f745beb5b6fb702e0d8d23bb5e204f18768f28f
+import { useState } from "react";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
+import { MakComponent } from "./MakComponent/component.jsx";
 
 const Units = () => {
   const [value, setValue] = useState(0);
@@ -39,7 +36,7 @@ const Units = () => {
       </TabPanel>
       <TabPanel>
         <h2>Any content 2</h2>
-        {<KryComponent value={value} />}
+        {/* <KryComponent value={value} /> */}
       </TabPanel>
       <TabPanel>
         <h2>Any content 3</h2>
@@ -54,8 +51,8 @@ const Units = () => {
         {/* <IgoComponent value={value} /> */}
       </TabPanel>
       <TabPanel>
-        <h2>Any content 6</h2>
-        {/* <MakComponent value={value} /> */}
+        <h2>Pascal-Bar converter</h2>
+        {<MakComponent value={value} />} pa
       </TabPanel>
       <TabPanel>
         <h2>Any content 7</h2>
@@ -69,44 +66,4 @@ const Units = () => {
   );
 };
 
-<<<<<<< HEAD
 export default Units;
-=======
-            <TabPanel>
-            <h2>Any content 1 {value}</h2>
-                {/* <OliComponent value={value} /> */}
-            </TabPanel>
-            <TabPanel>
-            <h2>Any content 2</h2>
-                {/* <KryComponent value={value} /> */}
-            </TabPanel>
-            <TabPanel>
-            <h2>Any content 3</h2>
-                {/* <KubComponent value={value} /> */}
-            </TabPanel>
-            <TabPanel>
-            <h2>Any content 4</h2>
-                {/* <WikComponent value={value} /> */}
-            </TabPanel>
-            <TabPanel>
-            <h2>Any content 5</h2>
-                {/* <IgoComponent value={value} /> */}
-            </TabPanel>
-            <TabPanel>
-            <h2>Pascal-Bar converter</h2>
-                { <MakComponent value={value} /> } pa
-            </TabPanel>
-            <TabPanel>
-            <h2>Any content 7</h2>
-                {/* <XawComponent value={value} /> */}
-            </TabPanel>
-            <TabPanel>
-            <h2>Any content 7</h2>
-                {/* <DomComponent value={value} /> */}
-            </TabPanel>
-        </Tabs>
-    )
-} 
-
-export default Units
->>>>>>> 1f745beb5b6fb702e0d8d23bb5e204f18768f28f
