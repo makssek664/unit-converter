@@ -1,6 +1,7 @@
-import { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
+import { useState } from 'react';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+import OliComponent from "./OliComponent/OliComponent.jsx"
 import KryComponent from "./KryComponent/KryComponent.jsx";
 import { MakComponent } from "./MakComponent/component.jsx";
 import DomComponent from "./DomComponent/DomComponent.jsx";
@@ -31,7 +32,7 @@ const Units = () => {
 
       <TabPanel>
         <h2>Oli component</h2>
-        {/* <OliComponent value={value} /> */}
+        { <OliComponent value={value} /> }
       </TabPanel>
       <TabPanel>
         <h2>Kry component</h2>
@@ -66,3 +67,4 @@ const Units = () => {
 };
 
 export default Units;
+
