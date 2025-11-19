@@ -22,5 +22,8 @@ npm install
 uruchomienie:
 npm run dev
 
+ZADANIE:
+w swoim komponencie sprawdzaj wartość przychodzącą i po przekroczeniu granicznej wartości (ustalonej dowolnie) zmień kolor wyniku na czerwony. 
+
 
 https://bulldogjob.pl/readme/jak-stworzyc-idealny-pull-request-w-5-krokach
