@@ -4,7 +4,7 @@ import 'react-tabs/style/react-tabs.css';
 import OliComponent from "./OliComponent/OliComponent.jsx"
 import KryComponent from "./KryComponent/KryComponent.jsx";
 import { MakComponent } from "./MakComponent/component.jsx";
-import DomComponent from "./DomComponent/DomComponent.jsx";
+import Converter from "./DomComponent/DomComponent.jsx";
 import JakComponent from "./JakComponent/JakComponent.jsx";
 
 const Units = () => {
@@ -60,7 +60,7 @@ const Units = () => {
       </TabPanel>
       <TabPanel>
         <h2>Any content 7</h2>
-        <DomComponent value={value} />
+        <Converter value={value} />
       </TabPanel>
     </Tabs>
   );
